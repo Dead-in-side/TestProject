@@ -154,11 +154,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d9e8355bfd641408423204a68a5017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 5
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 1
+  <EaseType>k__BackingField: 1
   _targetPosition: {x: -2, y: 0, z: 5}
-  _duration: 4
-  _repeats: -1
-  _loopType: 1
-  _easeType: 1
 --- !u!135 &46873990
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -363,10 +363,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d648339857d4e064dae5b8b87cdcb7dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _duration: 3
-  _repeats: -1
-  _loopType: 0
-  _easeType: 0
+  <Duration>k__BackingField: 3
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 0
+  <EaseType>k__BackingField: 1
 --- !u!114 &577669989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,11 +729,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd53c3d0773b9b4ca1138f2b5a062c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 5
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 2
+  <EaseType>k__BackingField: 1
   _targetRotation: {x: -20, y: 30, z: 90}
-  _duration: 2
-  _repeats: -1
-  _loopType: 2
-  _easeType: 1
 --- !u!65 &1019270775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -854,11 +854,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64d9e8355bfd641408423204a68a5017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 0
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 0
+  <EaseType>k__BackingField: 0
   _targetPosition: {x: 0, y: 0, z: -20}
-  _duration: 10
-  _repeats: -1
-  _loopType: 1
-  _easeType: 1
 --- !u!114 &1038689504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,11 +871,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd53c3d0773b9b4ca1138f2b5a062c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 0
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 0
+  <EaseType>k__BackingField: 0
   _targetRotation: {x: -90, y: 0, z: 0}
-  _duration: 1
-  _repeats: -1
-  _loopType: 2
-  _easeType: 1
 --- !u!114 &1038689505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,11 +888,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125f0558a9fe76b4786956e3e509a87b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 0
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 0
+  <EaseType>k__BackingField: 0
   _targetScale: {x: 4, y: 4, z: 4}
-  _duration: 2
-  _repeats: -1
-  _loopType: 1
-  _easeType: 1
 --- !u!65 &1038689506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1011,11 +1011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ec05beca68e5a4fadd58736a1ac028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 5
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 1
+  <EaseType>k__BackingField: 1
   _color: {r: 0, g: 0, b: 0, a: 0}
-  _duration: 3
-  _repeats: -1
-  _loopType: 1
-  _easeType: 1
 --- !u!64 &1517481775
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1135,11 +1135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125f0558a9fe76b4786956e3e509a87b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Duration>k__BackingField: 4
+  <Repeats>k__BackingField: -1
+  <LoopType>k__BackingField: 1
+  <EaseType>k__BackingField: 1
   _targetScale: {x: 2, y: 2, z: 2}
-  _duration: 5
-  _repeats: -1
-  _loopType: 2
-  _easeType: 0
 --- !u!136 &1598807624
 CapsuleCollider:
   m_ObjectHideFlags: 0

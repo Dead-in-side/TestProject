@@ -1,18 +1,14 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Mover : MonoBehaviour
+public class Mover : AnimationTweener
 {
     [SerializeField] private Vector3 _targetPosition;
-    [SerializeField] private float _duration;
-    [SerializeField] private int _repeats;
-    [SerializeField] private LoopType _loopType;
-    [SerializeField] private Ease _easeType;
 
-    private void Start()
+    public override void Animate()
     {
-        transform.DOMove(_targetPosition, _duration)
-            .SetEase(_easeType)
-            .SetLoops(_repeats,_loopType);
+        transform.DOMove(_targetPosition, Duration)
+         .SetEase(EaseType)
+         .SetLoops(Repeats, LoopType);
     }
 }

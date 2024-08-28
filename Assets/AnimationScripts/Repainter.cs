@@ -2,25 +2,21 @@ using DG.Tweening;
 using UnityEngine;
 
 [RequireComponent(typeof(Renderer))]
-public class Repainter : MonoBehaviour
+public class Repainter : AnimationTweener
 {
     [SerializeField] private Color _color;
-    [SerializeField] private float _duration;
-    [SerializeField] private int _repeats;
-    [SerializeField] private LoopType _loopType;
-    [SerializeField] private Ease _easeType;
 
     private Renderer _renderer;
 
     private void Awake()
     {
-        _renderer = GetComponent<Renderer>();  
+        _renderer = GetComponent<Renderer>();
     }
 
-    private void Start()
+    public override void Animate()
     {
-        _renderer.material.DOColor(_color,_duration)
-            .SetEase(_easeType)
-            .SetLoops(_repeats) ;
+        _renderer.material.DOColor(_color, Duration)
+        .SetEase(EaseType)
+        .SetLoops(Repeats);
     }
 }

@@ -1,18 +1,14 @@
 ﻿using DG.Tweening;
 using UnityEngine;
 
-public class Scaler:MonoBehaviour
+public class Scaler:AnimationTweener
 {
     [SerializeField] private Vector3 _targetScale;
-    [SerializeField] private float _duration;
-    [SerializeField] private int _repeats;
-    [SerializeField] private LoopType _loopType;
-    [SerializeField] private Ease _easeType;
 
-    private void Start()
+    public override void Animate()
     {
-        transform.DOScale(_targetScale, _duration)
-            .SetEase(_easeType)
-            .SetLoops(_repeats, _loopType);
+        transform.DOScale(_targetScale, Duration)
+         .SetEase(EaseType)
+         .SetLoops(Repeats, LoopType);
     }
 }
